@@ -32,15 +32,15 @@ A true dual-port **synchronous RAM** implemented in Verilog HDL. The RAM support
 
 1. Open your preferred FPGA simulation tool (Vivado, ModelSim, etc.)  
 2. Add design files:  
-   - `dual_port_RAM_1024x32.v` as design source  
-   - `dual_port_RAM_1024x32_tb.v` as simulation source  
+   - `dual_port_RAM.v` as design source  
+   - `dual_port_RAM_tb.v` as simulation source  
 3. Set the testbench as the top module  
 4. Run behavioral simulation and observe `out_a` and `out_b` for correctness  
 5. Modify addresses and data in the testbench to test more memory scenarios  
 
 ### Synthesis (Optional)
 
-1. Set `dual_port_RAM_1024x32.v` as the top module  
+1. Set `dual_port_RAM.v` as the top module  
 2. Add a constraints file (`.xdc`) appropriate for your FPGA board  
 3. Run Synthesis → Implementation → Generate Bitstream  
 
@@ -59,8 +59,8 @@ The design has been validated with a dedicated testbench that:
 
 | File Name                     | Description                                      |
 |-------------------------------|--------------------------------------------------|
-| `dual_port_RAM_1024x32.v`     | Main RAM module                                  |
-| `dual_port_RAM_1024x32_tb.v`  | Testbench for verification and simulation       |
+| `dual_port_RAM.v`     | Main RAM module                                  |
+| `dual_port_RAM_tb.v`  | Testbench for verification and simulation       |
 
 ## Author
 **Devansh Joshi**  
