@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2025.2 (64-bit)
+# SW Build 6299465 on Fri Nov 14 19:35:11 GMT 2025
+# IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
+# SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
+# Start of session at: Mon Dec 29 17:13:40 2025
+# Process ID         : 12232
+# Current directory  : C:/Users/Joshi/VerilogProjects/dual_port_RAM/dual_port_RAM.runs/synth_1
+# Command line       : vivado.exe -log dual_port_RAM.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source dual_port_RAM.tcl
+# Log file           : C:/Users/Joshi/VerilogProjects/dual_port_RAM/dual_port_RAM.runs/synth_1/dual_port_RAM.vds
+# Journal file       : C:/Users/Joshi/VerilogProjects/dual_port_RAM/dual_port_RAM.runs/synth_1\vivado.jou
+# Running On         : DevLappy
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 26200
+# Processor Detail   : Intel(R) Core(TM) i5-8300H CPU @ 2.30GHz
+# CPU Frequency      : 2304 MHz
+# CPU Physical cores : 4
+# CPU Logical cores  : 8
+# Host memory        : 8473 MB
+# Swap memory        : 6275 MB
+# Total Virtual      : 14748 MB
+# Available Virtual  : 1491 MB
+#-----------------------------------------------------------
+source dual_port_RAM.tcl -notrace
