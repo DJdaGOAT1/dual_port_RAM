@@ -4,7 +4,7 @@
 A true dual-port **synchronous RAM** implemented in Verilog HDL. The RAM supports simultaneous read and write operations from two independent ports on a single clock. Designed for synthesis on modern FPGAs, it serves as a general-purpose memory module suitable for buffering, data storage, and processor integration.
 
 **Language**: Verilog HDL  
-**EDA Tool**: Xilinx Vivado / Intel Quartus  
+**EDA Tool**: Xilinx (AMD) Vivado  
 **Architecture**: Fully synchronous, edge-triggered memory
 
 ## Module Interface
